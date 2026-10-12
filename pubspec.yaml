@@ -1,0 +1,31 @@
+name: country_weather_app
+description: "Country & Weather Explorer with Cubit and a mixed Clean Architecture level."
+publish_to: 'none'
+
+environment:
+  sdk: ^3.11.5
+
+ 
+
+dependencies:
+  cached_network_image: ^3.4.1
+  equatable: ^3.0.0
+  firebase_auth: ^6.7.0
+  firebase_core: ^4.15.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_map: ^8.3.2
+  get_it: ^9.3.0
+  hive_ce: ^2.20.2
+  hive_ce_flutter: ^2.3.4
+  http: ^1.6.0
+  latlong2: ^0.10.1
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  bloc_test: ^10.0.0
+  mocktail: ^1.0.5
